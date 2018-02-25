@@ -40,7 +40,7 @@
 		F4F09DAA1DAF669400026BB2 = {
 			isa = PBXGroup;
 			children = (
-				F4F09DB51DAF669400026BB2 /* QRCodeReader */,
+				F4F09DB51DAF669400026BB2 /* swiftStartQRCode */,
 				F4F09DB41DAF669400026BB2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -53,7 +53,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F4F09DB51DAF669400026BB2 /* QRCodeReader */ = {
+		F4F09DB51DAF669400026BB2 /* swiftStartQRCode */ = {
 			isa = PBXGroup;
 			children = (
 				F4F09DB61DAF669400026BB2 /* AppDelegate.swift */,
@@ -64,7 +64,7 @@
 				F4F09DCA1DAF6A4F00026BB2 /* QRScannerController.swift */,
 				40BB58712042466A0020B702 /* QRSpendController.swift */,
 			);
-			path = QRCodeReader;
+			path = swiftStartQRCode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F4F09DAE1DAF669400026BB2 /* Build configuration list for PBXProject "QRCodeReader" */;
+			buildConfigurationList = F4F09DAE1DAF669400026BB2 /* Build configuration list for PBXProject "swiftStartQRCode" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -273,7 +273,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z9JHPWRPYS;
-				INFOPLIST_FILE = QRCodeReader/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/swiftStartQRCode/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mata.App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -287,7 +287,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Z9JHPWRPYS;
-				INFOPLIST_FILE = QRCodeReader/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/swiftStartQRCode/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mata.App;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,7 +299,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F4F09DAE1DAF669400026BB2 /* Build configuration list for PBXProject "QRCodeReader" */ = {
+		F4F09DAE1DAF669400026BB2 /* Build configuration list for PBXProject "swiftStartQRCode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F4F09DC31DAF669400026BB2 /* Debug */,
